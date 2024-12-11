@@ -1,0 +1,122 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: Inter-VariableFont_slnt;
+    src: url(/challenges/social-links-profile-main/assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    font-family: Inter-VariableFont_slnt;
+}
+
+.container {
+    border-radius: 10px;
+    width: 330px;
+    background-color: hsl(0, 0%, 12%);
+    color: white;
+    margin: 150px auto;
+}
+.container .gambar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .gambar img {
+    border-radius: 50%;
+    max-width: 100%;
+    width: 80px;
+    margin: 30px auto;
+}
+.container h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container span{
+    margin-top: 5px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container p{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px;
+}
+.button a {
+    font-weight: 600;
+    font-size: 13px;
+    color: white;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    width: 270px;
+    height: 40px;
+    margin-bottom: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    
+}
+.github,
+.front,
+.linkedin,
+.twitter,
+.instagram 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.github a:hover,
+.front a:hover,
+.linkedin a:hover,
+.twitter a:hover,
+.instagram a:hover
+{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+@media only screen and (max-width: 375px) {
+    .container {
+        width: 90%; /* Mengurangi lebar container untuk layar kecil */
+        margin: 50px auto; /* Memberikan jarak yang sesuai dari atas */
+        padding: 10px; /* Menambahkan padding agar konten tidak menempel ke tepi */
+    }
+    .container .gambar img {
+        width: 60px; /* Mengurangi ukuran gambar profil */
+        margin: 20px auto; /* Menyesuaikan margin agar tetap proporsional */
+    }
+    .container h3 {
+        font-size: 16px; /* Menyesuaikan ukuran font judul */
+        margin-bottom: 5px;
+    }
+    .container span {
+        font-size: 10px; /* Mengurangi ukuran font deskripsi */
+        margin-bottom: 10px;
+    }
+    .container p {
+        font-size: 10px; /* Menyesuaikan ukuran font paragraf */
+        margin: 15px; /* Menyesuaikan jarak paragraf */
+    }
+    .button a {
+        width: 100%; /* Tombol memenuhi lebar container */
+        height: 35px; /* Menyesuaikan tinggi tombol */
+        font-size: 12px; /* Menyesuaikan ukuran font tombol */
+    }
+    .github,
+    .front,
+    .linkedin,
+    .twitter,
+    .instagram {
+        margin-bottom: 10px; /* Memberikan jarak antar tombol */
+    }
+}

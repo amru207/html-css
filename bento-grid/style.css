@@ -1,0 +1,195 @@
+@font-face {
+    font-family: DMSans-Regular;
+    src: url(/challenges/fonts/static/DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: DMSans-VariableFont;
+    src: url(/challenges/fonts/static/DMSans-VariableFont_opsz\,wght.ttf);
+}
+body{
+    background-color: rgb(235, 235, 235);
+    margin: 0px auto;
+    padding: 0px auto;
+    padding: 10px;
+}
+.container{
+    margin: 57px auto;
+    grid-template-areas: 
+    "create create create social social social social social social schedule schedule schedule"
+    "create create create social social social social social social schedule schedule schedule"
+    "create create create social social social social social social schedule schedule schedule"
+    "create create create social social social social social social schedule schedule schedule"
+    "create create create manage manage manage maintain maintain maintain schedule schedule schedule"
+    "write write write manage manage manage maintain maintain maintain schedule schedule schedule"
+    "write write write manage manage manage maintain maintain maintain schedule schedule schedule"
+    "write write write faster faster faster grow grow grow grow grow grow"
+    "write write write faster faster faster grow grow grow grow grow grow"
+    "write write write faster faster faster grow grow grow grow grow grow";
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+    gap:20px;
+    width: 1200px ;
+    height: 1200px;
+    font-family: DMSans-Regular;
+
+}
+/* row vertical */
+/* kolom horizontal */
+.create{
+    border-radius: 16px;
+    /* font-family: DMSans-VariableFont; */
+    grid-area: create;
+    background-color: hsl(31, 66%, 93%);
+    padding: 40px;
+    font-size: 35px;
+    font-weight:500;
+    letter-spacing: -2px;
+}
+.create img{
+    position: relative;
+    top:-15px;
+    padding: -1;
+    width: 200px;
+}
+.social{
+    border-radius: 16px;
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    font-size: 60px;
+    grid-area: social;
+    background-color: hsl(256, 67%, 59%);
+    letter-spacing: -2px;
+}
+.social img{
+    position: relative;
+    top:-74px;
+    padding: 0px;
+    width: 180px;
+}
+.social .over{
+    position: relative;
+    top:-98px;
+    letter-spacing: 0.1px;
+    font-size: 17px;
+    color: white;
+}
+.schedule{
+    border-radius: 16px;
+    padding: 17px 20px 0 45px;
+    grid-area: schedule;
+    background-color: hsl(254, 88%, 90%);
+    overflow: hidden;
+}
+.schedule .atas{
+    font-size: 30px;
+    font-weight: 600;
+}
+.schedule img{
+    width: 380px;
+}
+.schedule .bwh{
+    font-size: 19px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.write{
+    border-radius: 16px;
+    grid-area: write;
+    background-color: hsl(39, 100%, 71%);
+}
+.write p{
+    position:relative ;
+    top:-20px;
+    padding: 0 0 0 20px;
+    font-size: 50px;
+    line-height: 40px;
+    letter-spacing: -4px;
+}
+.write img{
+    position: relative;
+    top: -60px;
+    padding: 18px;
+    width: 250px;
+}
+.manage{
+    overflow: hidden;
+    border-radius: 16px;
+    grid-area: manage;
+    background-color: hsl(0, 0%, 100%);
+}
+.manage img{
+    padding:15px 0 0 35px;
+    width: 340px;
+}
+.manage p{
+    position: relative;
+    top: -30px;
+    padding: 12px;
+    margin: 20px;
+    font-size: 32px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+}
+.maintain{
+    border-radius: 16px;
+    grid-area: maintain;
+    background-color: hsl(39, 100%, 71%);
+    overflow: hidden;
+}
+.maintain p{
+    padding: 15px;
+    margin: 10px;
+    font-size: 33px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    line-height: 30px;
+}
+.maintain img{
+    position: relative;
+    top: -30px;
+    padding: 10px;
+    margin: 16px;
+    width: 230px;
+}
+.faster{
+    border-radius: 16px;
+    grid-area: faster;
+    background-color: hsl(0, 0%, 100%);
+}
+.faster .no{
+    padding-left: 15px;
+    margin: 15px;
+    margin-bottom: -17px;
+    font-size: 68px;
+    font-weight: bold;
+}
+.faster p{
+    padding-left: 35px;
+    font-size: 18px;
+}
+.faster img{
+    padding-left: 18px;
+    margin: 15px;
+    width: 200px;
+}
+.grow{
+    border-radius: 16px;
+    grid-area: grow;
+    background-color: hsl(256, 67%, 59%);
+}
+.grow img{
+    margin: 22px;
+    display: flex;
+    float: left;
+    width: 250px;
+}
+.grow p{
+    padding-top: 30px;
+    color: white;
+    font-size: 40px;
+    letter-spacing: -1px;
+    line-height: 38px;
+}

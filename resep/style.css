@@ -1,0 +1,153 @@
+@font-face{
+    src: url(/challenges/fonts/outfit/Outfit-VariableFont_wght.ttf);
+    font-family: Outfit-VariableFont;
+}
+@font-face {
+    src: url(/challenges/fonts/young-serif/YoungSerif-Regular.ttf);
+    font-family: YoungSerif-Regular;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    margin: 0px;
+    padding: 0px;
+}
+.content img{
+    border: none;
+    border-radius: 15px;
+    width: 815px;
+    margin: 40px ;
+}
+.content {
+    background-color: hsl(0, 0%, 100%);
+    width: 900px;
+    margin:150px auto;
+    padding: 10px;
+    padding-bottom: 50px;
+    border: none;
+    border-radius: 30px;
+}
+.desc h2{
+    font-family: YoungSerif-Regular;
+    font-weight: lighter;
+    margin-top: -10px;
+    margin-left: 40px;
+    font-size: 56px;
+}
+.desc p{
+    font-size: 16px;
+    font-family: Outfit-VariableFont;
+    margin-top: -26px;
+    margin-left: 40px;
+    margin-right: 70px;
+    color: hsl(30, 10%, 34%);
+}
+.subcontent h4{
+    font-family: Outfit-VariableFont;
+    color: hsl(332, 51%, 32%);
+    font-weight:650;
+    font-size: 25px;
+    padding-top:30px;
+    padding-left: 30px;
+    padding-bottom: -10px;
+}
+.subcontent{
+    background-color: hsl(330, 100%, 98%);
+    margin: 40px;
+    border: none;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+.subcontent ul{
+    font-family: Outfit-VariableFont;
+    padding-left: 60px;
+    padding-top: -10px;
+    color: hsl(30, 10%, 34%);
+    font-size: 16px;
+}
+.subcontent ul li{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.subcontent ul li::marker{
+    color: hsl(30, 10%, 34%);
+    font-size: 0.9em;
+}
+.content h3{
+    font-family: YoungSerif-Regular;
+    font-size: 33px;
+    font-weight: lighter;
+    color: hsl(14, 45%, 36%);
+    padding-left: 45px;
+    padding-bottom: -20px;
+}
+.content ul {
+    position: relative;
+    top: -17px;
+    font-family: Outfit-VariableFont;
+    padding-left: 60px;
+    padding-top: -10px;
+    color: hsl(30, 10%, 34%);
+    margin: 15px;
+}
+.content ul li::marker{
+    color: hsl(30, 10%, 34%);
+    font-size: 0.9em;
+}
+.content ul li{
+    margin-bottom: 12px;
+    padding-left: 17px;
+    font-size: 16px;
+}
+.content ol {
+    position: relative;
+    top: -17px;
+    font-family: Outfit-VariableFont;
+    padding-left: 60px;
+    padding-top: -10px;
+    color: hsl(30, 10%, 34%);
+    margin: 15px;
+}
+.content hr{
+    border: solid 1px hsl(30, 18%, 87%);
+    width: 800px;
+}
+.content ol li{
+    margin-bottom: 12px;
+    padding-left: 17px;
+}
+.content ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+    font-size: smaller;
+}
+.content p{
+    font-size: 16px;
+    font-family: Outfit-VariableFont;
+    margin-top: -26px;
+    margin-left: 40px;
+    margin-right: 70px;
+    color: hsl(30, 10%, 34%);
+    padding-left: 8px;
+    padding-top: 10px;
+}
+table{
+    width: 800px; /* Tabel memenuhi lebar container */
+    border-collapse: collapse; /* Hapus jarak antar border */
+    /* text-align: left; */
+    font-family: Outfit-VariableFont; /* Font default */
+    margin-left: 50px;
+}
+table tr {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+table td {
+    padding: 12px 8px; /* Spasi di dalam sel */
+    color: hsl(14, 45%, 36%); /* Warna teks */
+    font-size: 16px; /* Ukuran font */
+    padding-left: 79px;
+
+}
+table .nut{
+    font-weight: bold;
+    padding-right: 100px;
+}
